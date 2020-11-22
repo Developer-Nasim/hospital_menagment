@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- Custom CSS -->
+     <link href="https://fonts.googleapis.com/css?family=Muli:400,500,600,700|Oswald:400,500,600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./icomoon/icons.css">
+     <link rel="stylesheet" href="./css/common.css">
+     <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+      
+    <!--HEADER--->
+    <header>
+        <div class="container-fluid">
+            <div class="header-wrap d-flex">
+                <div class="header-left">
+                    <img src="./img/logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="header-right">
+                    <button class="btn" type="button"><span class="icon-search-2"></span></button>
+                    <button class="btn" type="button"><span class="icon-notification"></span></button>
+                    <button class="btn" type="button"><span class="icon-more"></span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END--->
+
+    <!--MAIN CONTENT--->
+    <div class="container-fluid">
+        <div class="content-wrapper">
+            <div class="home-wrapper d-flex">
+                <!--Left bar-->
+                <div class="leftbar-wrap">
+                    <div class="leftbar-profile">
+                        <button class="btn profile-menu" type="button"><span class="icon-more-1"></span></button>
+                        <div class="profile-icon">
+                            <img src="./img/person.jpg" class="img-fluid" alt="">
+                            <!--Upload-->
+                            <div class="inputfile-box">
+                                <input type="file" id="profile-button" name="profile_logo"  class="inputfile" >
+                                <label for="profile-button">
+                                    <span id="file-name" class="file-box"></span>
+                                    <span class="file-button">
+                                        <span class="icon-photo"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <!--Upload end-->
+                        </div>
+                        <h2>Turd Ferguson</h2>
+                        <ul>
+                            <li>Department</li>
+                            <li>Dermatologist</li>
+                        </ul>
+                        <ul>
+                            <li>Designation</li>
+                            <li>Skin Specialist</li>
+                        </ul>
+                    </div>
+                    <!---->
+                    <div class="leftbar-menu">
+                        <ul>
+                            <li class="active"><a href="#"><span class="icon-dashboard"></span> Dashboard</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#booking"><span class="icon-book"></span> Bookings (3/5)</a></li><!-- Button trigger modal -->
+                            <li><a href="#" data-toggle="modal" data-target="#ipAdmissions"><span class="icon-online-booking"></span> IP Admissions (10)</a></li><!-- Button trigger modal -->
+                            <li><a href="#"><span class="icon-hospital"></span> Result Ready (2)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Left bar end-->
+
+                <!--Right bar-->
+                <div class="right-wrap">
+                    <div class="right-blocks d-flex">
+                        <div class="each-block block-1">
+                            <div><h2>843</h2></div>
+                            <div>
+                                <p>20 March 2020</p>
+                                <p>Today's  Appointment</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="each-block block-2">
+                            <div><h2>10</h2></div>
+                            <div>
+                                <p>20 March 2020</p>
+                                <p>Total  OP</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="each-block block-3">
+                            <div><h2>7</h2></div>
+                            <div>
+                                <p>20 March 2020</p>
+                                <p>Visited  Patients</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="each-block block-4">
+                            <div><h2>5</h2></div>
+                            <div>
+                                <p>20 March 2020</p>
+                                <p>Consultation  Waiting</p>
+                            </div>
+                        </div>
+                        <!---->
+                        <div class="each-block block-5">
+                            <div><h2>8</h2></div>
+                            <div>
+                                <p>20 March 2020</p>
+                                <p>New  Patients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-contents">
+                        <div class="content-view">
+                            <div class="table-listing">
+                                <ul class="nav nav-tabs tab_listing-blk" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" id="c-waiting" data-toggle="tab" href="#c-waiting-id" role="tab" aria-controls="c-waiting-id" aria-selected="true">Consultation Waiting</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="c-patients" data-toggle="tab" href="#c-patients-id" role="tab" aria-controls="c-patients-id" aria-selected="false">Consulted Patients</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <form class="form-inline my-2 my-lg-0">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                            <button class="btn" type="submit"><span class="icon-search-1"></span></button>
+                                            <a href="#" class="sh-xs"><i class="fal fa-bars"></i></a>
+                                        </form>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                        <div class="list-content table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Token</th>
+                                                        <th>OP No.</th>
+                                                        <th>Name</th>
+                                                        <th>Age / Sex</th>
+                                                        <th>Type</th>
+                                                        <th>Arrival Time</th>
+                                                        <th class="text-center">Info</th>
+                                                        <th>Status</th>
+                                                        <th>Contact</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td><a href="#">1021</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td> 
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20.406" height="19.667" viewBox="0 0 20.406 19.667"><defs>
+                                                                <style>.a{fill:#0ea186;}</style></defs><g transform="translate(0 -8.125)"><g transform="translate(7.043 8.125)">
+                                                                <path class="a" d="M163.739,8.832a2.623,2.623,0,0,0-1.812-.707,2.889,2.889,0,0,0-2.037.846l-.238.238-.238-.239a2.892,2.892,0,0,0-2.037-.846,2.623,2.623,0,0,0-1.812.707,2.707,2.707,0,0,0-.06,3.886l4.147,4.147,4.147-4.147A2.707,2.707,0,0,0,163.739,8.832Z" transform="translate(-154.712 -8.125)"/></g><g transform="translate(0 18.323)"><path class="a" d="M20.14,232.779a1.88,1.88,0,0,0-2.053.074c-.665.384-4.483,3.649-4.483,3.649H9.845a.411.411,0,0,1-.364-.371.372.372,0,0,1,.364-.364h2.3a1.593,1.593,0,0,0,1.706-1.457,1.554,1.554,0,0,0-1.706-1.457c-1.4,0-1.668.006-1.668.006a3.384,3.384,0,0,1-1.564-.267,4.313,4.313,0,0,0-1.971-.468,4.209,4.209,0,0,0-3.019,1.237L0,237.224l4.37,4.37,1.457-1.457H13.2a3,3,0,0,0,1.991-.757l4.995-5.6A.638.638,0,0,0,20.14,232.779Z" transform="translate(0 -232.125)"/></g></g></svg></td>
+                                                        <td>Registered</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>02</td>
+                                                        <td><a href="#">1022</a></td>
+                                                        <td><a href="#" class="chenge">Pepe Sylvia</a></td>
+                                                        <td>20/female</td>
+                                                        <td>New</td>
+                                                        <td>09:15 AM AM</td>
+                                                        <td><span class="icon-first-aid-kit"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>03</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-doctor"></span></td>
+                                                        <td style="color: #763EE8;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>04</td>
+                                                        <td><a href="#">1022</a></td>
+                                                        <td><a href="#" class="chenge">Turd Ferguson</a></td>
+                                                        <td>60/male</td>
+                                                        <td>Visit</td>
+                                                        <td>10:15 AM</td>
+                                                        <td>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20.406" height="19.667" viewBox="0 0 20.406 19.667"><defs>
+                                                                <style>.a{fill:#0ea186;}</style></defs><g transform="translate(0 -8.125)"><g transform="translate(7.043 8.125)">
+                                                                <path class="a" d="M163.739,8.832a2.623,2.623,0,0,0-1.812-.707,2.889,2.889,0,0,0-2.037.846l-.238.238-.238-.239a2.892,2.892,0,0,0-2.037-.846,2.623,2.623,0,0,0-1.812.707,2.707,2.707,0,0,0-.06,3.886l4.147,4.147,4.147-4.147A2.707,2.707,0,0,0,163.739,8.832Z" transform="translate(-154.712 -8.125)"/></g><g transform="translate(0 18.323)"><path class="a" d="M20.14,232.779a1.88,1.88,0,0,0-2.053.074c-.665.384-4.483,3.649-4.483,3.649H9.845a.411.411,0,0,1-.364-.371.372.372,0,0,1,.364-.364h2.3a1.593,1.593,0,0,0,1.706-1.457,1.554,1.554,0,0,0-1.706-1.457c-1.4,0-1.668.006-1.668.006a3.384,3.384,0,0,1-1.564-.267,4.313,4.313,0,0,0-1.971-.468,4.209,4.209,0,0,0-3.019,1.237L0,237.224l4.37,4.37,1.457-1.457H13.2a3,3,0,0,0,1.991-.757l4.995-5.6A.638.638,0,0,0,20.14,232.779Z" transform="translate(0 -232.125)"/></g></g></svg></td>
+                                                        </td>
+                                                        <td>Consulted</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td>05</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>06</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td style="color: #763EE8;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>06</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>07</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>08</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td style="color: #A096B4;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>09</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit"></span></td>
+                                                        <td style="color: #763EE8;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>10</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-doctor"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td  style="color: #763EE8;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td>12</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit"></span></td>
+                                                        <td>Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>14</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#" class="chenge">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-doctor"></span></td>
+                                                        <td style="color: #763EE8;">Being Seen</td>
+                                                        <td>9814256375</td>
+                                                    </tr> 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="c-patients-id" role="tabpanel" aria-labelledby="c-patients">
+                                        <div class="list-content table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Token</th>
+                                                        <th>OP No.</th>
+                                                        <th>Name</th>
+                                                        <th>Age / Sex</th>
+                                                        <th>Type</th>
+                                                        <th>Arrival Time</th>
+                                                        <th class="text-center">Info</th>
+                                                        <th>Status</th>
+                                                        <th>Contact</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>81</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit-1"></span></td>
+                                                        <td><span class="consulted">Consulted</span></td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>81</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-first-aid-kit"></span></td>
+                                                        <td><span class="consulted">Consulted</span></td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>81</td>
+                                                        <td><a href="#">10218957485</a></td>
+                                                        <td><a href="#">Rusty Shackleford</a></td>
+                                                        <td>42/male</td>
+                                                        <td>Renew</td>
+                                                        <td>09:30 AM</td>
+                                                        <td><span class="icon-doctor"></span></td>
+                                                        <td><span class="consulted">Consulted</span></td>
+                                                        <td>9814256375</td>
+                                                    </tr>
+                                                    <tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+                            <div class="right-menu-wrap">
+                                <!--Token management-->
+                                <div class="token-manage">
+                                    <h2 class="head">Token Management</h2>
+                                    <div class="time-select"> 
+                                        <label class="time" style="margin-bottom: 15px;"> <p>Morning</p>
+                                            <input type="radio" name="radio"checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="time"> <p>Afternoon</p>
+                                            <input type="radio" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="current-tkn">
+                                        <div class="current-tkn-in">
+                                            <p>Current Token</p>
+                                            <h2>118</h2>
+                                        </div>
+                                        <div><button class="btn" type="button">Call Next Token</button></div>
+                                    </div>
+                                    <div class="repeat-tkn">
+                                        <p>Repeat Token</p>
+                                        <div class="repeat-tkn-in d-flex">
+                                            <div class="form-group">
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>118</option>
+                                                <option>100</option>
+                                                <option>30</option>
+                                                <option>45</option>
+                                                <option>57</option>
+                                                </select>
+                                            </div>
+                                            <div><button class="btn" type="button">Go</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Search patient--->
+                                <div class="search-patient"> 
+                                    <a href="#" class="sh-xs cross-btn"><i class="fal fa-times"></i></a>
+                                    <h2 class="head">Search Patients</h2>
+                                    <div class="search-patient-in">
+                                        <form class="form-inline">
+                                            <input class="form-control p-search" type="search" placeholder="Search" aria-label="Search">
+                                            <button class="btn" type="submit"><span class="icon-search-2"></span></button>
+                                            <ul>
+                                                <p>Search results</p>
+                                                <li> 
+                                                    <i> 
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.21" height="14.271" viewBox="0 0 11.21 14.271"><defs><style>.a{fill:#7a44e7;}</style></defs><g transform="translate(-80.04 -32)"><path class="a" d="M91.251,230.732a7.651,7.651,0,0,0-1.656-4.825,5.044,5.044,0,0,0-7.9,0,7.649,7.649,0,0,0-1.656,4.819,13.658,13.658,0,0,0,5.605,1.429A12.472,12.472,0,0,0,91.251,230.732Z" transform="translate(0 -185.884)"/><circle class="a" cx="2.803" cy="2.803" r="2.803" transform="translate(82.842 32)"/></g></svg>
+                                                    </i>
+                                                    1021 <br>
+                                                    <span>Rusty Shackleford</span>
+                                                    <a href="#">View Details</a>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Right bar end-->
+            </div>
+        </div>
+    </div>
+    <!--MAIN CONTENT END--->
+
+
+
+    <!-- ALL-POUPS START -->
+        <div class="ALL-POUPS"> 
+
+
+            <div class="modal fade" id="booking" tabindex="-1" role="dialog" aria-labelledby="bookingTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content"> 
+                        <div class="modal-body">
+                            <div class="poup-table">
+                                <div class="booking-poup"> 
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                        <div class="poup-table">
+                                            <p class="pending-text">Pending ( 2 )</p>
+                                            <div class="list-content table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>OP Number</th> 
+                                                            <th>Name</th>
+                                                            <th>Token</th>
+                                                            <th>Age</th>
+                                                            <th>Gender</th>
+                                                            <th>Address</th> 
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="gray-color">
+                                                            <td>10211245785</td>
+                                                            <td class="names">Rusty Shackleford</td>
+                                                            <td class="token">118</td> 
+                                                            <td>25</td> 
+                                                            <td>25</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr>
+                                                        <tr class="gray-color">
+                                                            <td>10211245785</td>
+                                                            <td class="names">Ben Rusty Shackleford</td>
+                                                            <td class="token">118</td>
+                                                            <td>30</td>
+                                                            <td>30</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                        </tr>
+                                                        <tr class="gray-color">
+                                                            <td>10211245785</td>
+                                                            <td class="names">leonard Shackleford</td>
+                                                            <td class="token">118</td>
+                                                            <td>15</td>
+                                                            <td>15</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Arnold ben Shackleford</td>
+                                                            <td class="token">118</td>
+                                                            <td>45</td>
+                                                            <td>45</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Rusty Shackleford</td>
+                                                            <td class="token">118</td>
+                                                            <td>22</td>
+                                                            <td>22</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Cencel</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ipAdmissions" tabindex="-1" role="dialog" aria-labelledby="ipAdmissionsTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content"> 
+                        <div class="modal-body">
+                            <div class="poup-table">
+                                <div class="booking-poup"> 
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                        <div class="poup-table"> 
+                                            <div class="list-content table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>IP Number</th>
+                                                            <th>OP Number</th>
+                                                            <th>Name</th>
+                                                            <th>Gender</th>
+                                                            <th>Age</th>
+                                                            <th>Address</th> 
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr style="background-color: #F6F4FB;">
+                                                            <td>10211245785</td>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Rusty Shackleford</td> 
+                                                            <td>25</td> 
+                                                            <td>25</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr> 
+                                                        <tr style="background-color: #F6F4FB;">
+                                                            <td>10211245785</td>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Ben Rusty Shackleford</td> 
+                                                            <td>30</td> 
+                                                            <td>30</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr> 
+                                                        <tr style="background-color: #F6F4FB;">
+                                                            <td>10211245785</td>
+                                                            <td>10211245785</td>
+                                                            <td class="names">leonard Shackleford</td> 
+                                                            <td>15</td> 
+                                                            <td>15</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr> 
+                                                        <tr style="background-color: #F6F4FB;">
+                                                            <td>10211245785</td>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Arnold ben Shackleford</td> 
+                                                            <td>45</td> 
+                                                            <td>45</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr> 
+                                                        <tr style="background-color: #F6F4FB;">
+                                                            <td>10211245785</td>
+                                                            <td>10211245785</td>
+                                                            <td class="names">Rusty Shackleford</td> 
+                                                            <td>22</td> 
+                                                            <td>22</td>
+                                                            <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                        </tr> 
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Cencel</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    <!-- ALL-POUPS END -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/1351.js"></script>
+    <script src="./js/jquery.nicescroll.min.js"></script>
+    <script>
+        // site-bar
+      $('.sh-xs').click(function(){
+        $('.right-menu-wrap').toggleClass('site-bar');
+      });
+    </script>
+  </body>
+</html>

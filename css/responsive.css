@@ -1,0 +1,1052 @@
+/* BIG desktop :1200px. */
+@media (min-width: 1500px) and (max-width: 1900px) {
+
+    .table-listing .tab-title {
+        padding: 0 10px;
+    }
+      
+    .table-listing .tab-title .nav.nav-tabs.mtb li.nav-item {
+        height: 30px;
+    }
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 0px;
+        padding-left: 10px;
+    }
+    .content-view .nav-tabs .nav-link { 
+        font-size: 14px; 
+        margin-left: 10px;
+    }
+    .sigle-bio-box.slet.fst.w_dta {
+        width: 180px;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .leftbar-menu li a {
+        font-size: 12px;
+    }
+    .leftbar-profile li:nth-child(2) {
+        font-weight: 600;
+        font-size: 11px;
+        opacity: 0.82;
+    }
+    .leftbar-menu li a { 
+        margin: 10px 0px 10px 14px; 
+    }
+    .user-detailse .user-main-detailse .user-img img {
+        width: 90px;
+        height: 90px; 
+    }
+    .user-detailse .user-main-detailse .user-img {
+        width: 270px; 
+    }
+    .main-description .description-text h5 { 
+        font-size: 11px; 
+    }
+    .main-description .description-text h5 span { 
+        font-size: 14px; 
+    }
+    .ds-date .ds-detailse-box { 
+        padding: 25px; 
+    }
+    .ds-date .ds-detailse-box h4 { 
+        font-size: 16px; 
+        margin-bottom: 10px;
+    }
+    .ds-date .ds-detailse-box p {
+        color: #646464;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    .description-comment h4 {
+        font-size: 13px; 
+    }
+    .comment-box h5 { 
+        font-size: 16px;
+    }
+    .comment-box p { 
+        padding: 14px;
+        font-size: 11px; 
+    }
+    .leftbar-menu li a {
+        display: block;
+        margin: 5px 0px 10px 15px;
+        color: #9088A2;
+        border-bottom: 1px solid rgba(146, 132, 172, 0.23);
+        padding: 15px 0;
+        width: auto;
+    }
+    .list-content tr th {
+        color: #9088A2;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .list-content tr td { 
+        font-size: 11px; 
+    }
+    label.time p {
+        border: 2px solid #753DE8;
+        width: 110px; 
+        height: 35px;
+        line-height: 30px;  
+        margin-left: 0px;
+    }
+    .search-patient-in ul li a { 
+        top: 0px
+    }
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 0px;
+        padding-left: 16px;
+    }
+    .content-view .nav-tabs .nav-link { 
+        font-size: 11px; 
+    }
+    .allergic-right{
+        padding-right: 0 !important;
+    }
+    .remark.d-flex .remark-info input[type="date"] {
+        width: 155px; 
+    }
+    div#history .modal-dialog.modal-dialog-centered {
+        min-width: 1170px;
+    }
+    .md-detailse table tbody tr td textarea { 
+        width: 220px; 
+    }
+    .md-detailse table tbody tr td input {
+        width: 110px; 
+    }
+    .md-detailse table tbody tr td textarea {
+        margin-left: 20px; 
+        margin-right: 0px; 
+    }
+    .slet {
+        margin-right: 15px;
+    }
+    .logIn-area:before {
+        left: 10px;
+        font-size: 13px;
+    }
+    .logIn-area .container {
+        height: 970px;
+        max-width: 1140px;
+    }
+    .sigle-bio-box.slet.fst.w_dta {
+        width: 180px;
+        margin-right: 10px;
+    }
+    .main-contents.Examination .content-view .nav.nav-tabs.mtb .nav-item:last-child { 
+        margin-left: 20px; 
+    }
+    .dr-table table tbody tr td {
+        font-size: 11px;
+        font-weight: 800;
+        padding: 15px 0;
+        color: #2C2A2A;
+        padding-left: 25px;
+    }
+    .table-listing .tab-title {
+        padding: 0 10px;
+    }
+      
+    .table-listing .tab-title .nav.nav-tabs.mtb li.nav-item {
+        height: 30px;
+    }
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 0px;
+        padding-left: 10px;
+    }
+    .remark-info.two input#Prescription-inp {
+        width: 100%;
+    }
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .leftbar-menu li a {
+        font-size: 12px;
+    }
+    .leftbar-profile li:nth-child(2) {
+        font-weight: 600;
+        font-size: 11px;
+        opacity: 0.82;
+    }
+    .leftbar-menu li a { 
+        margin: 10px 0px 10px 14px; 
+    }
+    .user-detailse .user-main-detailse .user-img img {
+        width: 90px;
+        height: 90px; 
+    }
+    .user-detailse .user-main-detailse .user-img {
+        width: 270px;
+        margin: auto;
+    }
+    .main-description .description-text h5 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .main-description .description-text h5 span {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .ds-date .ds-detailse-box {
+        padding: 15px;
+    }
+    .ds-date .ds-detailse-box h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .ds-date .ds-detailse-box p {
+        color: #646464;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    .description-comment h4 {
+        font-size: 12px;
+    }
+    .comment-box h5 { 
+        font-size: 16px;
+    }
+    .comment-box p { 
+        padding: 14px;
+        font-size: 11px; 
+    }
+    .user-detailse .user-main-detailse { 
+        display: block; 
+        padding-bottom: 50px;
+        height: 405px;
+    }
+    .user-detailse .user-main-detailse .user-img { 
+        height: 170px; 
+    }
+    .main-description {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 1px 20px;
+    }
+    .description-comment { 
+        padding: 20px; 
+    }
+    .ds-date .pt-both .ds-detailse-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .leftbar-menu li a {
+        display: block;
+        margin: 5px 0px 10px 8px;
+        color: #9088A2;
+        border-bottom: 1px solid rgba(146, 132, 172, 0.23);
+        padding: 15px 0;
+        width: auto;
+    }
+    .list-content tr th {
+        color: #9088A2;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .list-content tr td { 
+        font-size: 11px; 
+    }
+    label.time p {
+        border: 2px solid #753DE8;
+        width: 110px; 
+        height: 35px;
+        line-height: 30px;  
+        margin-left: 0px;
+    }
+    .search-patient-in ul li a { 
+        top: 0px
+    }
+
+    .right-menu-wrap {
+        width: 290px;
+        box-shadow: 1px 7px 15px 1px #9c80af33;
+        border-radius: 6px;
+        background: #fff;
+        padding: 20px 10px;
+        position: fixed;
+        right: 0;
+        margin-right: -320px;
+        transition: .3s;
+        overflow-y: scroll;
+        transition-timing-function: cubic-bezier(0.42, 0, 0, 1.07);
+        height: 100vh;
+        top: 0;
+        padding-top: 50px;
+        border-radius: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .right-menu-wrap.site-bar { 
+        margin-right:0px; 
+    }
+    .table-listing {
+        width: 100%;
+    }
+    .each-block p:first-child {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+    .each-block p:nth-child(2) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .each-block h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        margin: 0 6px 0 0;
+    }
+    a.sh-xs {
+        position: absolute;
+        right: 5px;
+        top: 12px;
+        width: 20px;
+        height: 30px;
+        display: block;
+        font-size: 20px;
+        color: #763ee8;
+    }
+    li.nav-item form.form-inline.my-2.my-lg-0 {
+        margin-right: 50px;
+        margin-top: 10px !important;
+    }
+    li.nav-item form.form-inline button.btn {
+        right: 60px !important;
+        
+    }
+    .leftbar-wrap {
+        width: 20%; 
+    }
+    .right-wrap {
+        width: 80%;
+    }  
+
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 0px;
+        padding-left: 16px;
+    }
+    .content-view .nav-tabs .nav-link {
+        font-size: 12px;
+        padding-left: 0;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    .allergic-right{
+        padding-right: 0 !important;
+    }
+    .remark.d-flex .remark-info input[type="date"] {
+        width: 88px;
+    }
+    .main-contents.Examination ul#myTab {
+        width: 100%;
+        height: 115px;
+        padding-top: 0px;
+        border-radius: 4px;
+        background: #f0f0f2;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 0px;
+        padding-left: 16px;
+        line-height: 20px;
+    }
+    .bio .sigle-bio-box {
+        display: inline-block;
+        margin-bottom: 20px; 
+        width: 170px;
+    }
+    .bio {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .allergic-detailse table tbody tr td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #646464;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .allergic-detailse table tr th {
+        font-size: 10px;
+        line-height: 18px;
+        color: #646464;
+        padding-bottom: 2px;
+        padding-left: 0 !important;
+    }
+    .remark.d-flex .remark-info {
+        width: 180px !important;
+    }
+
+    .tab-title {
+        background: #fff !important;
+        overflow: hidden;
+        height: 125px;
+        padding: 0 25px;
+    }
+    .summary-dateails ul li ::placeholder {
+        color: #763EE8;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .summary-dateails { 
+        padding: 20px; 
+    }
+    .remark .remark-info.two input[type="text"] {
+        width: 470px; 
+     }
+     .admission_date ul li span {
+        margin-left: 15px;
+    }
+    .admission_date ul li:last-child {
+        margin-left: 38px;
+    }
+    .admission_date ul li { 
+        font-size: 12px; 
+    }
+    .main-contents.tabInTab {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .main-contents.tabInTab ul#myTab li.nav-item {
+        padding-left: 0;
+        margin-left: 25px;
+    }
+    
+    .main-contents.tabInTab ul#myTab li.nav-item a {
+        padding-left: 0;
+    }
+
+    .card .card-header button { 
+        font-size: 15px; 
+    }
+    .nice-select { 
+        padding-left: 5px;
+    }
+    .nice-select:after { 
+        right: 7px;
+    }
+    div#history .modal-dialog.modal-dialog-centered {
+        min-width: 990px;
+    }
+
+    .md-detailse table tbody tr td textarea { 
+        width: 150px; 
+    }
+    .md-detailse table tbody tr td input {
+        width: 110px; 
+    }
+    .md-detailse table tbody tr td textarea {
+        margin-left: 20px; 
+        margin-right: 0px; 
+    }  
+    .dtls-table {
+        overflow: scroll;
+    }
+    
+    .dtls-table table {
+        width: 1430px;
+    }
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        position: unset;
+    } 
+
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        position: unset;
+    } 
+    .bio.bioTwo .sigle-bio-box {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 140px;
+    }
+    .slet {
+        margin-right: 15px;
+    }
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        top: 0px;
+        position: relative;
+    }
+
+    .dtls-table.tbls table {
+        width: 1200px;
+    }
+    .logIn-area { 
+        background-size: 100% 100%; 
+    }
+    .logIn-area:after { 
+        width: 100%; 
+    }
+    .logIn-area { 
+        height: 1050px;
+     }
+     .logIn-area:before { 
+        left: 0; 
+        font-size: 15px;
+        text-align: center; 
+        color: #ccc;
+    }.sigle-bio-box.slet.fst.w_dta {
+        width: 180px;
+        margin-right: 10px;
+    }
+
+    .nav.nav-tabs.mtb .nav-item:last-child { 
+        margin-left: 20px; 
+    }
+    .scrl{
+        overflow-x: scroll !important;
+    }
+    .camplients-table .md-detailse.scrl table {
+        width: 1235px;
+    }
+    .Prescription.mr-20 .slt-box .nice-select {
+        width: 160px;
+    }
+
+    .scorll_in_lg{
+        overflow: scroll;
+    }
+    
+    .scorll_in_lg table{
+        width: 500px;
+    }
+
+    .search-options form {
+        width: 100%; 
+    }
+    .remark-info.two input#Prescription-inp {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .leftbar-menu li a {
+        font-size: 12px;
+    }
+    .leftbar-profile li:nth-child(2) {
+        font-weight: 600;
+        font-size: 11px;
+        opacity: 0.82;
+    }
+    .leftbar-menu li a { 
+        margin: 10px 0px 10px 14px; 
+    }
+    .user-detailse .user-main-detailse .user-img img {
+        width: 90px;
+        height: 90px; 
+    }
+    .user-detailse .user-main-detailse .user-img {
+        width: 270px;
+        margin: auto;
+    }
+    .main-description .description-text h5 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .main-description .description-text h5 span {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .ds-date .ds-detailse-box {
+        padding: 15px;
+    }
+    .ds-date .ds-detailse-box h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .ds-date .ds-detailse-box p {
+        color: #646464;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    .description-comment h4 {
+        font-size: 12px;
+    }
+    .comment-box h5 { 
+        font-size: 16px;
+    }
+    .comment-box p { 
+        padding: 14px;
+        font-size: 11px; 
+    }
+    .user-detailse .user-main-detailse { 
+        display: block; 
+        padding-bottom: 50px;
+    }
+    .user-detailse .user-main-detailse .user-img { 
+        height: 170px; 
+    }
+    .main-description {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 1px 20px;
+    }
+    .description-comment { 
+        padding: 20px; 
+    }
+    .ds-date .pt-both .ds-detailse-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .leftbar-menu li a {
+        font-size: 12px;
+    }
+    .leftbar-profile li:nth-child(2) {
+        font-weight: 600;
+        font-size: 11px;
+        opacity: 0.82;
+    }
+    .leftbar-menu li a { 
+        margin: 10px 0px 10px 14px; 
+    }
+    .user-detailse .user-main-detailse .user-img img {
+        width: 90px;
+        height: 90px; 
+    }
+    .user-detailse .user-main-detailse .user-img {
+        width: 270px;
+        margin: auto;
+    }
+    .main-description .description-text h5 {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .main-description .description-text h5 span {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .ds-date .ds-detailse-box {
+        padding: 20px 30px;
+    }
+    .ds-date .ds-detailse-box h4 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .ds-date .ds-detailse-box p {
+        color: #646464;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    .description-comment h4 {
+        font-size: 12px;
+    }
+    .comment-box h5 { 
+        font-size: 16px;
+    }
+    .comment-box p { 
+        padding: 14px;
+        font-size: 11px; 
+    }
+    .user-detailse .user-main-detailse { 
+        display: block; 
+        padding-bottom: 50px;
+    }
+    .user-detailse .user-main-detailse .user-img { 
+        height: 170px; 
+    }
+    .main-description {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 1px 20px;
+    }
+    .description-comment { 
+        padding: 20px; 
+    }
+    .ds-date .pt-both .ds-detailse-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .leftbar-menu li a {
+        display: block;
+        margin: 5px 0px 10px 15px;
+        color: #9088A2;
+        border-bottom: 1px solid rgba(146, 132, 172, 0.23);
+        padding: 15px 0;
+        width: auto;
+    }
+    .list-content tr th {
+        color: #9088A2;
+        font-weight: 700;
+        font-size: 12px;
+        min-width: 120px;
+    }
+    .list-content tr td { 
+        font-size: 11px; 
+    }
+    label.time p {
+        border: 2px solid #753DE8;
+        width: 110px; 
+        height: 35px;
+        line-height: 30px;  
+        margin-left: 0px;
+    }
+    .search-patient-in ul li a { 
+        top: 0px
+    }
+
+    .right-menu-wrap {
+        width: 290px;
+        box-shadow: 1px 7px 15px 1px #9c80af33;
+        border-radius: 6px;
+        background: #fff;
+        padding: 20px 10px;
+        position: fixed;
+        right: 0;
+        margin-right: -320px;
+        transition: .3s;
+        overflow-y: scroll;
+        transition-timing-function: cubic-bezier(0.42, 0, 0, 1.07);
+        height: 100vh;
+        top: 0;
+        padding-top: 50px;
+        border-radius: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .right-menu-wrap.site-bar { 
+        margin-right:0px; 
+    }
+    .table-listing {
+        width: 100%;
+    }
+    .each-block p:first-child {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+    .each-block p:nth-child(2) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .each-block h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        margin: 0 6px 0 0;
+    }
+    a.sh-xs {
+        position: absolute;
+        right: 5px;
+        top: 10px;
+        width: 20px;
+        height: 30px;
+        display: block;
+        font-size: 20px;
+        color: #763ee8;
+    }
+    li.nav-item form.form-inline.my-2.my-lg-0 {
+        margin-right: 40px;
+    }
+    
+    li.nav-item form.form-inline button.btn {
+        right: 45px !important;
+    }
+    .leftbar-wrap {
+        width: 50%;
+    }
+    .right-wrap {
+        width: 74%;
+    }
+    .each-block { 
+        padding: 10px; 
+        width: 32%;
+        margin-top: 10px;
+    }
+    .content-view .nav-tabs .nav-item {
+        padding: 14px 20px;
+    }
+    .modal .list-content {
+        overflow: scroll;
+        padding-top: 40px !important;
+    }
+    .modal .list-content table{
+        width: 1000px;
+    }
+    .main-contents.Examination ul#myTab {
+        width: 100%;
+        height: 170px;
+        padding-top: 20px;
+        border-radius: 4px;
+        background: #f0f0f2;
+        margin-top: 20px;
+    }
+    .tab-title {
+        background: #fff !important;
+        overflow: hidden;
+        height: 210px;
+        padding: 0px 15px;
+    }
+    .bio {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .bio .sigle-bio-box {
+        width: 150px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .allergic-left {
+        position: relative;
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+    .allergic-left:after {
+        display: none;
+    }
+    .allergic-detailse table tr th { 
+        width: 100px;
+    }
+    .Diagnosis {
+        padding-right: 0;
+    }
+    .card-body.r-marks .allergic-right {
+        padding-right: 0 !important;
+    }
+    .remark.d-flex {
+        display: block !important;
+    }
+    .remark-info {
+        margin-bottom: 20px;
+    }
+    .remark.d-flex .remark-info {
+        width: 100%;
+    }
+    .remark.d-flex .remark-info input[type="text"] {
+        width: 100%;
+    }
+    .content-wrapper.Examination .leftbar-wrap {
+        width: 25%;
+    }
+    .user-detailse .user-main-detailse {
+        height: 560px;
+    }
+    .br-none {
+        border-top: 1px solid #0000;
+        border-bottom: 1px solid #0000;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+    .main-description .row .col-md-6 { 
+        height: 75px;
+    }
+    .cb-box {
+        height: 170px;
+    }
+    .cb-box .ds-detailse-box { 
+        height: 150px !important; 
+    }
+    .ds-date .pt-both .ds-detailse-box {
+        padding-left: 30px;
+    }
+    .ds-detailse-box.frst-blk {
+        padding-left: 15px;
+    }
+    .description-comment {
+        margin-top: 50px;
+    }
+    .summary-dateails {
+        text-align: center;
+        background: #f0f0f2;
+        padding: 30px;
+        margin-top: 10px;
+        border-radius: 4px;
+        margin-bottom: 50px;
+    }
+    .main-contents.tabInTab ul#myTab {
+        padding-top: 0;
+        height: 65px;
+        margin-top: 5px;
+    }
+    .admission_date ul li:last-child {
+        margin-left: 40px;
+    }
+    .mr-20{
+        margin-right: 20px;
+    }
+    div#p-patients-id label { 
+        margin-top: 15px;
+    }
+    .right-text p { 
+        margin-top: 65px; 
+    }
+    .dr-table tr td label.checkBX span.checkmark { 
+        top: 0;
+    }
+
+    div#history .modal-dialog.modal-dialog-centered {
+        min-width: 760px;
+    }
+    .md-detailse {
+        overflow-x: scroll;
+    }
+    .md-detailse table thead tr th:first-child {
+        padding-left: 25px !important;
+        min-width: 195px;
+    }
+    .btns { 
+        margin-right: 30px;
+    }
+    div#history .main-contents.tabInTab .content-view .table-listing ul#myTab .nav-item:last-child {
+        padding: 0;
+        margin-left: 18px;
+        width: 26%;
+        margin-top: 15px;
+    }
+    .medicine-type.tbl .manage-details {
+        background: #a3a0aa3b;
+        height: 230px;
+        padding: 30px;
+        padding-top: 0;
+        border-radius: 4px;
+        margin-top: 15px;
+    }
+    .manage-details label {
+        margin-top: 25px;
+    }
+    
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        position: unset;
+    }
+    .bio.bioTwo .sigle-bio-box {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 117px;
+    }
+    .dtls-table.tbls table {
+        width: 1200px;
+    }
+    .content-view .nav-tabs {
+        border: 0;
+        padding: 0 2px;
+    }
+    .main-contents.Examination .content-view .nav-tabs .nav-item {
+        padding: 0 20px;
+    }
+
+    .dtls-table {
+        overflow: scroll;
+    } 
+
+    .md-detailse table tbody tr td textarea { 
+        width: 150px; 
+    }
+    .md-detailse table tbody tr td input {
+        width: 110px; 
+    }
+    .md-detailse table tbody tr td textarea {
+        margin-left: 20px; 
+        margin-right: 0px; 
+    } 
+    .dtls-table {
+        overflow: scroll;
+    }
+    
+    .dtls-table table {
+        width: 1430px;
+    }
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        position: unset;
+    } 
+
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        position: unset;
+    } 
+    .bio.bioTwo .sigle-bio-box {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 140px;
+    }
+    .slet {
+        margin-right: 15px;
+    }
+    .bio.bioTwo .sigle-bio-box.slet.fst {
+        top: 0px;
+        position: relative;
+    }
+
+    .dtls-table.tbls table {
+        width: 1200px;
+    }
+    input#Cervix {
+        width: 175px !important;
+    }
+    .logIn-area { 
+        background-size: 100% 100%; 
+    }
+    .logIn-area:after { 
+        width: 100%; 
+    }
+    .logIn-area { 
+        height: 1050px;
+     }
+     .logIn-area:before { 
+        left: 0; 
+        font-size: 15px;
+        text-align: center;
+        color: #ccc;
+    }
+
+    .scrl{
+        overflow-x: scroll !important;
+    }
+    .camplients-table .md-detailse.scrl table {
+        width: 1235px;
+    }
+    .pt-t{
+        padding-top: 20px;
+    }
+    .content-view .nav-tabs .nav-link {
+        color: #9088A2;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+    }
+
+ 
+
+
+
+}
+
+ 

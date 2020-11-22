@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- Custom CSS -->
+     <link href="https://fonts.googleapis.com/css?family=Muli:400,500,600,700|Oswald:400,500,600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./css/fontawesome-all.min.css"> 
+     <link rel="stylesheet" href="./icomoon/icons.css">
+     <link rel="stylesheet" href="./css/common.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Dashboard summary</title>
+  </head>
+  <body>
+    <!--HEADER--->
+    <header>
+        <div class="container-fluid">
+            <div class="header-wrap d-flex">
+                <div class="header-left">
+                    <img src="./img/logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="header-right">
+                    <button class="btn" type="button"><span class="icon-search-2"></span></button>
+                    <button class="btn" type="button"><span class="icon-notification"></span></button>
+                    <button class="btn" type="button"><span class="icon-more"></span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END--->
+
+
+    <!--MAIN CONTENT--->
+    <div class="container-fluid summary">
+        <div class="content-wrapper">
+            <div class="home-wrapper d-flex">
+                <!--Left bar-->
+                <div class="leftbar-wrap">
+                    <div class="leftbar-profile">
+                        <button class="btn profile-menu" type="button"><span class="icon-more-1"></span></button>
+                        <div class="profile-icon">
+                            <img src="./img/person.jpg" class="img-fluid" alt="">
+                            <!--Upload-->
+                            <div class="inputfile-box">
+                                <input type="file" id="profile-button" name="profile_logo"  class="inputfile" >
+                                <label for="profile-button">
+                                    <span id="file-name" class="file-box"></span>
+                                    <span class="file-button">
+                                        <span class="icon-photo"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <!--Upload end-->
+                        </div>
+                        <h2>Turd Ferguson</h2>
+                        <ul>
+                            <li>Department</li>
+                            <li>Dermatologist</li>
+                        </ul>
+                        <ul>
+                            <li>Designation</li>
+                            <li>Skin Specialist</li>
+                        </ul>
+                    </div>
+                    <!---->
+                    <div class="leftbar-menu">
+                        <ul>
+                            <li class="active"><a href="#"><span class="icon-dashboard"></span> Dashboard</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#booking"><span class="icon-book"></span> Bookings (3/5)</a></li><!-- Button trigger modal -->
+                            <li><a href="#" data-toggle="modal" data-target="#ipAdmissions"><span class="icon-online-booking"></span> IP Admissions (10)</a></li><!-- Button trigger modal -->
+                            <li><a href="#"><span class="icon-hospital"></span> Result Ready (2)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Left bar end-->
+                
+                <!--Right bar-->
+                <div class="right-wrap"> 
+                    <div class="right-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="title-left-content">
+                                        <h3>Patient Summary</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="title-right-content text-right">
+                                       <h5>Dashboard <i class="fal fa-chevron-right"></i> <span>Rusty Shackleford</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-detailse">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="user-main-detailse">
+                                        <div class="user-img">
+                                            <img src="./img/person.jpg" alt=""> 
+                                        </div>
+                                        <div class="main-description">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>Patient Name <br> <span>Rusty Shackleford</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>OP Number <br> <span>01275</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>Age / Gender <br> <span>Male</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5  class="br-none">Address <br> <span>San Antonio, Texas, 78233</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5 class="br-none">Phone Number <br> <span>9688127850</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5 class="br-none">Spouse Name / OP Number <br> <span>Pepe Sylvia / 12345</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>Height <br> <span style="color: #220A51;">170 cm</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>Weight <br> <span style="color: #220A51;">75 kg</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="description-text">
+                                                        <h5>BMI <br> <span style="color: #220A51;">20</span></h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="ds-date"> 
+                                        <div class="row">
+                                            <div class="col-lg-4 pr-0">
+                                               <div class="cb-box">
+                                                <div class="ds-detailse-box frst-blk">
+                                                    <h4>History of Illness</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. 
+                                                    Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim.
+                                                    Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet.
+                                                    Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim</p>
+                                                </div>
+                                               </div>
+                                            </div>
+                                            <div class="col-lg-4 pt-both">
+                                                <div class="cb-box">
+                                                    <div class="ds-detailse-box">
+                                                        <h4>Family History</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce 
+                                                            a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse
+                                                             semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus,
+                                                              laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 pt-left-0">
+                                                <div class="cb-box">
+                                                    <div class="ds-detailse-box"> 
+                                                        <h4>Allergic : Y/N</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim</p>
+                                                
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="description-comment">
+                                        <h4>Previous Visit <span>19-02-2020</span></h4>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis. </p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis. </p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis. </p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                        <div class="comment-box">
+                                            <h5>Previous Diagnosis</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis pretium consequat. Integer vestibulum sapien leo, id suscipit velit rhoncus sit amet. Integer nibh risus, laoreet et velit eget, efficitur scelerisque sapien. Cras condimentum gravida dignissim Quisque ut finibus dui, quis gravida lorem. Aliquam a neque enim. Suspendisse semper condimentum felis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-contents tabs main-tabs">
+                        <div class="content-view">
+                            <div class="table-listing">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" id="c-waiting" data-toggle="tab" href="#c-waiting-id" role="tab" aria-controls="c-waiting-id" aria-selected="true">OP Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="c-patients" data-toggle="tab" href="#c-patients-id" role="tab" aria-controls="c-patients-id" aria-selected="false">IP Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <form class="form-inline my-2 my-lg-0"> 
+                                        </form>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                              <div id="headingOne"> 
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Visit Date 1
+                                                    <span><i class="fal fa-angle-up"></i></span>
+                                                </button>
+                                              </div>
+                                          
+                                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="card-body"> 
+                                                    <div class="list-content table-responsive">
+                                                        <table class="table"> 
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Symptoms</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Assessment / Observations</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Diagnosis</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Medicines Prescribed</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Remarks</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr> 
+                                                                
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <div id="headingTwo"> 
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Visit Date 2
+                                                    <span><i class="fal fa-angle-up"></i></span>
+                                                  </button>
+                                              </div>
+                                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <div class="list-content table-responsive">
+                                                        <table class="table"> 
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Symptoms</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Assessment / Observations</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Diagnosis</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Medicines Prescribed</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Remarks</td>
+                                                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                </tr> 
+                                                                
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="c-patients-id" role="tabpanel" aria-labelledby="c-patients">
+                                        <div class="list-content table-responsive">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="card">
+                                                  <div id="headingOne"> 
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        Visit Date 1
+                                                        <span><i class="fal fa-angle-up"></i></span>
+                                                    </button>
+                                                  </div>
+                                              
+                                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                    <div class="card-body"> 
+                                                        <div class="list-content table-responsive">
+                                                            <table class="table"> 
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Symptoms</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Assessment / Observations</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Diagnosis</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Medicines Prescribed</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Remarks</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr> 
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <div id="headingTwo"> 
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Visit Date 2
+                                                        <span><i class="fal fa-angle-up"></i></span>
+                                                      </button>
+                                                  </div>
+                                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <div class="list-content table-responsive">
+                                                            <table class="table"> 
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Symptoms</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Assessment / Observations</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Diagnosis</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Medicines Prescribed</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Remarks</td>
+                                                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.consectetur adipiscing elit. Phasellus a ante eget nisl tristique bibendum non quis sem. Fusce a quam rhoncus, varius ligula quis, pretium tortor.Quisque.</td> 
+                                                                    </tr> 
+                                                                    
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----> 
+                        </div>
+                    </div>
+                    <div class="footer-btn">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-right">
+                                    <div class="btns">
+                                        <a href="#" class="btn">Cancel</a>
+                                        <a href="#" class="btn active">Save</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Right bar end-->
+            </div>
+        </div>
+    </div>
+    <!--MAIN CONTENT END--->
+
+
+    <!-- ALL-POUPS START -->
+    <div class="ALL-POUPS">   
+        <div class="modal fade" id="booking" tabindex="-1" role="dialog" aria-labelledby="bookingTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content"> 
+                    <div class="modal-body">
+                        <div class="poup-table">
+                            <div class="booking-poup"> 
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                    <div class="poup-table">
+                                        <p class="pending-text">Pending ( 2 )</p>
+                                        <div class="list-content table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>OP Number</th> 
+                                                        <th>Name</th>
+                                                        <th>Token</th>
+                                                        <th>Age</th>
+                                                        <th>Gender</th>
+                                                        <th>Address</th> 
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="gray-color">
+                                                        <td>10211245785</td>
+                                                        <td class="names">Rusty Shackleford</td>
+                                                        <td class="token">118</td> 
+                                                        <td>25</td> 
+                                                        <td>25</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr>
+                                                    <tr class="gray-color">
+                                                        <td>10211245785</td>
+                                                        <td class="names">Ben Rusty Shackleford</td>
+                                                        <td class="token">118</td>
+                                                        <td>30</td>
+                                                        <td>30</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                    </tr>
+                                                    <tr class="gray-color">
+                                                        <td>10211245785</td>
+                                                        <td class="names">leonard Shackleford</td>
+                                                        <td class="token">118</td>
+                                                        <td>15</td>
+                                                        <td>15</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Arnold ben Shackleford</td>
+                                                        <td class="token">118</td>
+                                                        <td>45</td>
+                                                        <td>45</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                    </tr>
+                                                    <tr>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Rusty Shackleford</td>
+                                                        <td class="token">118</td>
+                                                        <td>22</td>
+                                                        <td>22</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td> 
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Cencel</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ipAdmissions" tabindex="-1" role="dialog" aria-labelledby="ipAdmissionsTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content"> 
+                    <div class="modal-body">
+                        <div class="poup-table">
+                            <div class="booking-poup"> 
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="c-waiting-id" role="tabpanel" aria-labelledby="c-waiting">
+                                    <div class="poup-table"> 
+                                        <div class="list-content table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>IP Number</th>
+                                                        <th>OP Number</th>
+                                                        <th>Name</th>
+                                                        <th>Gender</th>
+                                                        <th>Age</th>
+                                                        <th>Address</th> 
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr style="background-color: #F6F4FB;">
+                                                        <td>10211245785</td>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Rusty Shackleford</td> 
+                                                        <td>25</td> 
+                                                        <td>25</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr> 
+                                                    <tr style="background-color: #F6F4FB;">
+                                                        <td>10211245785</td>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Ben Rusty Shackleford</td> 
+                                                        <td>30</td> 
+                                                        <td>30</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr> 
+                                                    <tr style="background-color: #F6F4FB;">
+                                                        <td>10211245785</td>
+                                                        <td>10211245785</td>
+                                                        <td class="names">leonard Shackleford</td> 
+                                                        <td>15</td> 
+                                                        <td>15</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr> 
+                                                    <tr style="background-color: #F6F4FB;">
+                                                        <td>10211245785</td>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Arnold ben Shackleford</td> 
+                                                        <td>45</td> 
+                                                        <td>45</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr> 
+                                                    <tr style="background-color: #F6F4FB;">
+                                                        <td>10211245785</td>
+                                                        <td>10211245785</td>
+                                                        <td class="names">Rusty Shackleford</td> 
+                                                        <td>22</td> 
+                                                        <td>22</td>
+                                                        <td class="texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a ante eget nisl</td>
+                                                    </tr> 
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Cencel</button> 
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- ALL-POUPS END -->
+
+    <!-- save-start -->
+    <div class="save-btn">
+        <div class="save-blk">
+            <p>Patient Details are <span style="color: #763EE8; font-weight: 700;">Saved!</span></p>
+        </div>
+        <a href="#" class="save-btn">
+            <img src="./img/save.svg" alt="">
+        </a>
+    </div>
+    <div class="overlay"></div>
+    <!-- save-start -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/1351.js"></script>
+    <script src="./js/jquery.nicescroll.min.js"></script>
+    <script src="./js/main.js"></script> 
+  </body>
+</html>

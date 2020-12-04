@@ -1,2 +1,2 @@
-# hospital_menagment
-<img src="https://i.ibb.co/446jdzH/nasim1684061598340596.png" alt="nasim1684061598340596" border="0">
+# Hospital_menagment
+<img src="https://i.ibb.co/rtPKVQk/hptl.png" alt="hptl" border="0">
